@@ -109,7 +109,6 @@ class _NoteDetailPageState extends State<NoteDetailPage> {
                 ),
                 Container(
                     margin: const EdgeInsets.only(left: 10, bottom: 10),
-                    // padding: EdgeInsets.symmetric(horizontal: 0),
                     height: 30,
                     child: ListView(
                       scrollDirection: Axis.horizontal,
@@ -135,7 +134,6 @@ class _NoteDetailPageState extends State<NoteDetailPage> {
   @override
   Widget build(BuildContext context) => Scaffold(
         appBar: AppBar(
-          // automaticallyImplyLeading: false,
           leading: IconButton(
             icon: Icon(Icons.arrow_back),
             onPressed: () => Navigator.push(context,

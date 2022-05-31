@@ -1,8 +1,6 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:sqlite_notes/model/mycolors.dart';
-
 import 'notes_page.dart';
 
 class Splash extends StatefulWidget {
@@ -44,7 +42,6 @@ class _SplashState extends State<Splash> {
         body: Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
-        // crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           const Image(image: AssetImage('assets/Splach.png')),
           const SizedBox(

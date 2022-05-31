@@ -9,7 +9,6 @@ Future main() async {
     DeviceOrientation.portraitUp,
     DeviceOrientation.portraitDown,
   ]);
-
   runApp(const MyApp());
 }
 
@@ -23,7 +22,6 @@ class MyApp extends StatelessWidget {
         title: title,
         theme: ThemeData(
           primaryColor: Color(MyColors.myColors[0]),
-          // scaffoldBackgroundColor: Colors.blueGrey.shade900,
           appBarTheme: const AppBarTheme(
             color: Color(0xFF1321E0),
             elevation: 0,
