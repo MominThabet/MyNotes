@@ -41,6 +41,7 @@ class _NoteDetailPageState extends State<NoteDetailPage> {
     await NotesDatabase.instance.update(newnote);
     setState(() {
       note.color = MyColors.myColors[i];
+      Navigator.pop(context);
       isLoading = false;
     });
   }

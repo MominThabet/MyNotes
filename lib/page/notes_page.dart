@@ -41,7 +41,7 @@ class _NotesPageState extends State<NotesPage> {
         appBar: AppBar(
           automaticallyImplyLeading: false,
           leading: IconButton(
-            icon: Icon(Icons.home),
+            icon: const Icon(Icons.home),
             onPressed: () => Navigator.push(context,
                 MaterialPageRoute(builder: (context) => const NotesPage())),
           ),
